@@ -4,7 +4,6 @@ import NavPart from "./NavPart";
 import Form from "./Form";
 import Footer from "./Footer";
 
-
 export default function App() {
   const [isShown, setIsShown] = useState(false);
 
@@ -41,7 +40,6 @@ export default function App() {
         )}
         {isShown }
       <NavPart />
-
       <br></br><br></br>
        <Books />
       <Footer />
