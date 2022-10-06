@@ -1,0 +1,97 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "images": "../images/img1.jpeg",
+      "title": "Northanger Abbey",
+      "author": "Austen, Jane",
+      "category": "Penguin",
+      "published": "2011"
+    },
+    {
+      "id": 2,
+      "images": "../images/img1.jpeg",
+      "title": "Anna Karenina",
+      "author": "Tolstoy, Leo",
+      "category": "Penguin",
+      "published": "2015"
+    },
+    {
+      "id": 3,
+      "title": "The Hours",
+      "author": "Cunnningham, Michael",
+      "category": "Harcourt Brace",
+      "published": "2013"
+    },
+    {
+      "id": 6,
+      "title": "Huckleberry Finn",
+      "author": "Twain, Mark",
+      "category": "Random House",
+      "published": "2011"
+    },
+    {
+      "id": 7,
+      "title": "Tom Sawyer",
+      "author": "Twain, Mark",
+      "category": "Random House",
+      "published": "2009"
+    },
+    {
+      "id": 8,
+      "title": "A Room of One's Own",
+      "author": "Woolf",
+      "category": "Penguin",
+      "published": "2016"
+    },
+    {
+      "id": 9,
+      "title": "Harry Potter",
+      "author": "Rowling, J.K.",
+      "category": "Harcourt Brace",
+      "published": "2017"
+    },
+    {
+      "id": 10,
+      "title": "Lord of the Rings",
+      "author": "Tolkien, J.R.",
+      "category": "Penguin",
+      "published": "2012"
+    },
+    {
+      "id": 11,
+      "title": "Hamlet, Prince of Denmark",
+      "author": "Shakespeare",
+      "category": "Signet",
+      "published": "2006"
+    },
+    {
+      "id": 12,
+      "title": "Hundred Years of Solitude",
+      "author": "Marquez",
+      "category": "Harper",
+      "published": "2010"
+    },
+    {
+      "id": 13,
+      "title": "Room of One's Own",
+      "author": "Woolf",
+      "category": "Penguin",
+      "published": "2015"
+    },
+    {
+      "id": 14,
+      "title": "Bleak House",
+      "author": "Dickens, Charles",
+      "category": "Random House",
+      "published": "2004"
+    },
+    {
+      "id": 15,
+      "title": "Hamlet, Prince of Denmark",
+      "author": "Shakespeare",
+      "category": "Classics",
+      "published": "2018"
+    }
+  ]
+}
