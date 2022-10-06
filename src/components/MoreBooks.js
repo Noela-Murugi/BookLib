@@ -36,8 +36,6 @@ function booksList({
        <div className="row">
         {listbook}
         </div>
-
-
     </>
   );
 }
