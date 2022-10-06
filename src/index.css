@@ -64,7 +64,14 @@ body {
 
 }
 
+.ui.grid >.row{
+  padding: 100px;
+  margin-right: -100px;
+}
 
+.ui[class*="four column"].grid>.column:not(.row), .ui[class*="four column"].grid>.row>.column {
+  width: 105%;
+}
 
 
 .gridClass{
