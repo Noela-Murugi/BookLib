@@ -23,7 +23,9 @@ function Books() {
   function handleSearch(event){
     let search = event.target.value.toLowerCase()
 
-  
+    setbooks(copy.filter(val=>val.author.toLowerCase().includes(search)))
+    console.log(handleSearch)
+  }
 
   return (
     <div>
