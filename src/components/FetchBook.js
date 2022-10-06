@@ -2,7 +2,7 @@ import React from "react";
 
 function FetchBook({id, title, author, category, published, deletebooks}) {
 
-  function handleDeleteTransaction(){
+  function handleDeleteBook(){
     fetch (`http://localhost:8001/books/${id}`, {
       method: "DELETE"
     })
@@ -20,7 +20,7 @@ function FetchBook({id, title, author, category, published, deletebooks}) {
     <p className="card-text">Category : {category}</p>
     <p className="card-text">Published : {published}</p>
     <a href="https://www.imdb.com/list/ls056861724/" className="btn btn-primary">More...</a>
-    <button onClick={handleDeleteTransaction} className="ui button">Delete</button>
+    <button onClick={handleDeleteBook} className="ui button">Delete</button>
 
   </div>
 </div>
