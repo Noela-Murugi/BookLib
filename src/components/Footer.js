@@ -12,7 +12,7 @@ function Footer() {
             }><h1 style={{
                 textAlign: "center",
                 fontSize:"20px",
-                color: "#FFFFFF",
+                color: "black",
             }}>Copyright 2022 &copy; Noela-Murugi</h1></footer>
     </div>
     </>
