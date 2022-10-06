@@ -2,7 +2,6 @@
   "books": [
     {
       "id": 1,
-      "images": "../images/img1.jpeg",
       "title": "Northanger Abbey",
       "author": "Austen, Jane",
       "category": "Penguin",
@@ -10,7 +9,6 @@
     },
     {
       "id": 2,
-      "images": "../images/img1.jpeg",
       "title": "Anna Karenina",
       "author": "Tolstoy, Leo",
       "category": "Penguin",
