@@ -81,3 +81,45 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.nav{
+  position: center;
+}
+.homepart{
+  font-size: large;
+  background-color: rgba(163, 69, 6, 0.855);
+  color: white;
+  padding: 20px;
+  margin-left: 240px;
+  margin-right: 140px;
+}
+
+.imptext, select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.impsubmit {
+  width: 20%;
+  background-color: white;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.impsubmit:hover {
+  background-color: #a85d0ce2;
+}
+
+.formdiv {
+  border-radius: 5px;
+  padding: 10px;
+}
+
