@@ -4,7 +4,7 @@
 Noela Murugi
 
 # Description
-A library website where users can search for available books. They can also borrow a book by filling in a form inorder to get approval.
+A library website where users can search for available books. They can also borrow a book by filling in a form in order to get approval.
 
 # Technologies Used
 *React JS<br>
