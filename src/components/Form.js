@@ -13,7 +13,7 @@ function Form() {
         setFirst("")
         setLast("")
         setParagraph(()=>[firstName,lastName])
-        alert(firstName + ' ' + "your request to borrow" + ' '+ lastName + ' '+ "has been approved. Thankyou for choosing us!!")
+        alert(firstName + ' ' + "your request to borrow" + ' '+ lastName + ' '+ "has been approved. Enjoy the book!!")
       }
   }
 

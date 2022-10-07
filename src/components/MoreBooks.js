@@ -20,6 +20,7 @@ function booksList({
         book={books}
           setbooks={setbooks}
           key={book.id}
+          images={book.images}
           published={book.published}
           title={book.title}
           author={book.author}
@@ -36,6 +37,8 @@ function booksList({
        <div className="row">
         {listbook}
         </div>
+
+
     </>
   );
 }

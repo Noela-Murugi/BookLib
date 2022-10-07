@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import MoreBooks from "./MoreBooks.js";
 import Search from "./Search";
 
@@ -15,7 +15,7 @@ function Books() {
   }, []);
   console.log(books);
 
-  function deleteBooks(id) {
+  function deleteTransact(id) {
     const update = books.filter((book) => book.id !== id);
     setbooks(update);
   }
@@ -33,7 +33,7 @@ function Books() {
       <br></br>
       <MoreBooks
         books={books}
-        deletebooks={deleteBooks}
+        deletebooks={deleteTransact}
       />
     </div>
   );

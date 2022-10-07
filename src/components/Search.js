@@ -3,7 +3,7 @@ import React from "react";
 function Search({handleSearch}) {
 
   return (
-    <div className="ui large fluid icon input">
+    <div className="ui large icon input" style={{margin:"40px"}}>
       <input
         type="text"
         placeholder="Book Search Author..."

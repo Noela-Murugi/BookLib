@@ -1,50 +1,36 @@
-import React,{useState} from "react";
-import Books from "./Books";
-import NavPart from "./NavPart";
-import Form from "./Form";
-import Footer from "./Footer";
+import React, { useState } from "react";
+import { Switch, Route } from "react-router-dom";
 
-export default function App() {
-  const [isShown, setIsShown] = useState(false);
+import About from "./About";
+import Main from "./Main";
+import NavLink from "./NavLink";
+import PostForm from "./PostForm";
 
-  const handleClick = event => {
-    setIsShown(current => !current);
+function App() {
+  const [page, setPage] = useState("/")
 
-  };
   return (
-    <div>
 
-      <div className="ui raised segment"style={{
-        backgroundImage: "url(" + require('../images/background.jpg').default + ")",
-        backgroundSize: 'auto 3660px',
-        backgroundRepeat: 'no-repeat'
-      }} >
-      <div className="ui segment brown inverted">
-        <h2>Welcome To BookLib</h2>
-      </div>
-      <button onClick={handleClick} style={{
-                fontSize:"20px",
-                margin:"30px",
-                marginBottom:"-40px",
-                alignItems:"left",
-                backgroundColor:"yellow",
-                cursor: "pointer",
-            }}>Borrow a  Book</button>
+    <div className="App" style={{
+      backgroundImage: "url(" + require('../images/background.jpg').default + ")",
+      backgroundSize: 'auto 3660px',
+      backgroundRepeat: 'no-repeat'
+    }} >
+      <NavLink onChangePage = {setPage}/>
+      <Switch>
+        <Route path="/about">
+            <About />
+        </Route>
+        <Route path="/morebooks">
+            <PostForm />
+        </Route>
+        <Route exact path="/">
+            <Main />
+        </Route>
+      </Switch>
 
-        {isShown && (
-          <div>
-            <h2>
-            <Form />
-            </h2>
-          </div>
-        )}
-        {isShown }
-      <NavPart />
-      <br></br><br></br>
-       <Books />
-      <Footer />
-    </div>
     </div>
   );
 }
 
+export default App;
