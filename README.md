@@ -4,7 +4,7 @@
 Noela Murugi
 
 # Description
-A library website where users can search for available books. They can also borrow a book by filling a form in order to get approval.
+A website where users can search for available books and incase they want to borrow, then they will be required to fill a form in order to get approval.
 
 # Technologies Used
 *React JS<br>
@@ -30,6 +30,7 @@ npm install , npm start , npm run server
 ************************************
 # Sample Screenshots
 ![Screenshot from 2022-10-07 03-45-21](https://user-images.githubusercontent.com/97957631/194443790-408a33a8-51e7-4bcd-9bb1-95e2fbb3dae0.png)
+
 ![Screenshot from 2022-10-07 03-38-40](https://user-images.githubusercontent.com/97957631/194443844-e059f716-286d-4b07-833c-f70d5379add9.png)
 
 
