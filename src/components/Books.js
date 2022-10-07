@@ -15,7 +15,7 @@ function Books() {
   }, []);
   console.log(books);
 
-  function deleteTransact(id) {
+  function deleteBooks(id) {
     const update = books.filter((book) => book.id !== id);
     setbooks(update);
   }
@@ -33,7 +33,7 @@ function Books() {
       <br></br>
       <MoreBooks
         books={books}
-        deletebooks={deleteTransact}
+        deletebooks={deleteBooks}
       />
     </div>
   );
