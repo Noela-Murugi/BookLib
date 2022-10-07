@@ -7,7 +7,7 @@ function Books() {
   const [copy, setCopy] = React.useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8001/books")
+    fetch("https://my-json-server.typicode.com/noela-murugi/hostDB")
       .then((response) => response.json())
       .then((data) => {
         setCopy(data)
