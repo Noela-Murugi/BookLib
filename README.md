@@ -27,6 +27,12 @@ npm install , npm start , npm run server
 ```
 
 # Live Page
+************************************
+# Sample Screenshots
+![Screenshot from 2022-10-07 03-45-21](https://user-images.githubusercontent.com/97957631/194443790-408a33a8-51e7-4bcd-9bb1-95e2fbb3dae0.png)
+![Screenshot from 2022-10-07 03-38-40](https://user-images.githubusercontent.com/97957631/194443844-e059f716-286d-4b07-833c-f70d5379add9.png)
+
+
 
 # Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at [noela.murugi@student.moringaschool.com]
