@@ -3,7 +3,7 @@ import React from "react";
 function FetchBook({id, title, author, category, published, deletebooks}) {
 
   function handleDeleteBook(){
-    fetch (`http://localhost:8001/books/${id}`, {
+    fetch (`https://my-json-server.typicode.com/noela-murugi/hostDB/${id}`, {
       method: "DELETE"
     })
     deletebooks(id);
