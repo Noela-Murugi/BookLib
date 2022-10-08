@@ -27,7 +27,7 @@ npm install , npm start , npm run server
 ```
 
 # Live Page
-http://booklib-theta.vercel.app/
+*********************************
 # Sample Screenshots
 ![Screenshot from 2022-10-07 03-45-21](https://user-images.githubusercontent.com/97957631/194443790-408a33a8-51e7-4bcd-9bb1-95e2fbb3dae0.png)
 
